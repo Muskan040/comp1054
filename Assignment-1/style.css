@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #1a1a1a;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #ffcc00, #ff6600);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.artist {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.description {
+    margin: 20px auto;
+    width: 80%;
+    font-style: italic;
+    color: #ccc;
+}
+
+.lyrics {
+    margin: 20px auto;
+    width: 80%;
+    line-height: 1.8;
+}
+
+.chorus {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffcc00;
+    text-transform: uppercase;
+}
+
+.thunder {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 5px rgba(255, 102, 0, 0.7);
+}
+
+.lightning {
+    color: #66ccff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 5px rgba(102, 204, 255, 0.7);
+}
+
+.emphasized {
+    font-weight: bold;
+    font-style: italic;
+    color: #ff99cc;
+}
+
+.bold {
+    font-weight: bold;
+    color: #ff3366;
+}
+
+.highlight {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.question {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #00ff99;
+}
+
+.dream {
+    font-weight: bold;
+    color: #ffccff;
+    text-transform: uppercase;
+}
+
+.motivation {
+    color: #ff0000;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #222;
+    font-size: 0.8rem;
+    color: #bbb;
+}
